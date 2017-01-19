@@ -1,2 +1,6 @@
 .metadata
 .recommenders
+google_news/test-output
+google_news/.classpath
+google_news/.settings
+google_news/.project
