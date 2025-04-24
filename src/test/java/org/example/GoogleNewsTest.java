@@ -39,7 +39,7 @@ public class GoogleNewsTest {
 
         List<WebElement> resultsArticles = googleNewsPage.getResultsArticles(searchTerm);
         assertFalse(
-                resultsArticles.isEmpty()
+                resultsArticles.isEmpty(),
                 "Search results articles should be displayed"
         );
         boolean containsTechnology = resultsArticles.stream()
