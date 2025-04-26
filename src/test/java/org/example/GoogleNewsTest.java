@@ -1,7 +1,7 @@
 package org.example;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.example.pageObjects.GoogleNewsPage;
+import org.example.pageObjects.google.GoogleNewsPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
